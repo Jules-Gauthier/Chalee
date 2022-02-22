@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "644195099969",
+    "firebase_url": "https://chalee-29fcb-default-rtdb.firebaseio.com",
+    "project_id": "chalee-29fcb",
+    "storage_bucket": "chalee-29fcb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:644195099969:android:0453be4a4b13e362d7adc0",
+        "android_client_info": {
+          "package_name": "com.isen.chalee"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "644195099969-80agv4d0reuna19nfva1ljept4rgv3ki.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1knYNV-RxSTQM95A9zgiPrPjKehZ3JMo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "644195099969-80agv4d0reuna19nfva1ljept4rgv3ki.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:644195099969:android:fca7404a1c0c6fd8d7adc0",
+        "android_client_info": {
+          "package_name": "fr.isen.chaleeapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "644195099969-80agv4d0reuna19nfva1ljept4rgv3ki.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1knYNV-RxSTQM95A9zgiPrPjKehZ3JMo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "644195099969-80agv4d0reuna19nfva1ljept4rgv3ki.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
