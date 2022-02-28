@@ -9,5 +9,4 @@ class DefiModel (
     val imageUrl: String = "https://www.graven.yt/plante.jpg",
     var liked: Boolean = false
 
-
         )
