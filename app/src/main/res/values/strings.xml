@@ -1,5 +1,56 @@
 <resources>
+
     <string name="app_name">chaleeApp</string>
+
+
+    <!-- page d'accueil -->
+    <string name="home_page_title">A découvrir</string>
+    <string name="home_page_last_defi_title">Dernier défis </string>
+    <string name="home_page_defi">Nature défis </string>
+
+    <!-- page de defis -->
+    <string name="defi_page_title">Les defis </string>
+
+
+    <!-- page d'ajout de defis -->
+    <string name="add_defi_page_title">Ajout d un defi</string>
+    <string name="item_defi_page_upload_button">Charger image</string>
+    <string name="add_defi_page_name_input">@string/item_defi_name</string>
+    <string name="add_defi_page_description_input">@string/item_defi_description</string>
+
+
+    <string-array name="add_defi_page_speed_input">
+        <item>Vitesse_defi : lent </item>
+        <item>Vitesse_defi : moyen </item>
+        <item>Vitesse_defi : rapide </item>
+    </string-array>
+
+
+    <string-array name="add_defi_page_difficult_input">
+        <item>difficulte_defi : dur </item>
+        <item>difficulte_defi : moyen </item>
+        <item>difficulte_defi : facile </item>
+
+    </string-array>
+
+    <string name="add_defi_page_confirm_button">Confirmer</string>
+
+    <!-- fenetres popup de details -->
+    <string name="popup_defi_name">Defi name</string>
+    <string name="popup_defi_description_title">Description</string>
+    <string name="popup_defi_description_subtitle">Petite description</string>
+    <string name="popup_defi_delai_title">Delai</string>
+    <string name="popup_defi_delai_subtitle">Lent</string>
+    <string name="popup_defi_difficulte_title">Difficulte</string>
+    <string name="popup_defi_difficulte_subtitle">Facile</string>
+
+
+
+    <!-- Customise defis -->
+    <string name="item_defi_name">Nom du defi</string>
+    <string name="item_defi_description">Description du defi</string>
+
+
     <string name="texte_accueil">Bienvenue sur Chalee, le réseau social du challenge</string>
     <string name="identification">S\'identifier</string>
     <string name="creation">Je n\'ai pas de compte</string>
