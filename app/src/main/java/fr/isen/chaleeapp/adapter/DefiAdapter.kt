@@ -9,9 +9,10 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import fr.isen.chaleeapp.*
+import fr.isen.chaleeapp.User.FilActuActivity
 
 class DefiAdapter(
-    val context:MainActivity,
+    val context: FilActuActivity,
     private val defiList: List<DefiModel>,
     private val layoutId: Int) : RecyclerView.Adapter<DefiAdapter.ViewHolder>(){
     //boite pour ranger tout les composants à controler

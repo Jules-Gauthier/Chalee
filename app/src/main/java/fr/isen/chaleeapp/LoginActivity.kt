@@ -1,6 +1,7 @@
 package fr.isen.chaleeapp
 
 import android.content.Context
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -9,6 +10,7 @@ import android.widget.Toast
 import com.android.volley.Request
 import com.android.volley.toolbox.JsonObjectRequest
 import com.android.volley.toolbox.Volley
+import fr.isen.chaleeapp.User.FilActuActivity
 import fr.isen.chaleeapp.databinding.ActivityLoginBinding
 import fr.isen.chaleeapp.databinding.ActivityMainBinding
 import org.json.JSONObject
@@ -23,6 +25,11 @@ class LoginActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityLoginBinding.inflate(layoutInflater)
         setContentView(binding.root) //permet de créer une instance pour détecter toutes les interations que nous allons avoir avec le layout
+
+        binding.buttonLogin.setOnClickListener {
+            val intent = Intent (this, FilActuActivity::class.java)
+            startActivity(intent)
+        }
     }
 
     fun makeRequest(

@@ -3,6 +3,7 @@ package fr.isen.chaleeapp
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import fr.isen.chaleeapp.User.FilActuActivity
 import fr.isen.chaleeapp.fragments.HomeFragment
 import fr.isen.chaleeapp.databinding.ActivityMainBinding
 
@@ -26,21 +27,5 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent) //méthode qui démarre l'intent
         }
 
-        //charger notre DefiRepository
-        val repo = DefiRepository()
-
-        //mettre à jour la liste de defis
-        repo.updateData{
-            //injecter le fragment dans notre boite fragment_container
-            val transaction = supportFragmentManager.beginTransaction()
-            transaction.replace(R.id.fragment_container, HomeFragment(this))
-            transaction.addToBackStack(null)
-            transaction.commit()
-        }
-
-
-
-
-}
-
+    }
 }

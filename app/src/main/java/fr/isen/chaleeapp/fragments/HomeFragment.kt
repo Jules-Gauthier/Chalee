@@ -6,16 +6,16 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.RecyclerView
-import fr.isen.chaleeapp.DefiModel
 import fr.isen.chaleeapp.DefiRepository.Singleton.defiList
 import fr.isen.chaleeapp.MainActivity
 import fr.isen.chaleeapp.R
+import fr.isen.chaleeapp.User.FilActuActivity
 import fr.isen.chaleeapp.adapter.DefiAdapter
 import fr.isen.chaleeapp.adapter.DefiItemDecoration
 
 
 class HomeFragment(
-    private val context: MainActivity
+    private val context: FilActuActivity
 ) : Fragment() {
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
