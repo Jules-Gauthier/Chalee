@@ -18,6 +18,13 @@
     <string name="add_defi_page_name_input">@string/item_defi_name</string>
     <string name="add_defi_page_description_input">@string/item_defi_description</string>
 
+    <!-- page du profil -->
+    <string name="profile_page_title">Profil</string>
+    <string name="profile_firstName">Prénom</string>
+    <string name="profile_lastName">Nom</string>
+    <string name="profile_email">Email</string>
+    <string name="profile_list_challenges_posted">Liste des défis postés :</string>
+
 
     <string-array name="add_defi_page_speed_input">
         <item>Vitesse_defi : lent </item>
