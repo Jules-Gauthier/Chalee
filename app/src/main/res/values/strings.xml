@@ -66,4 +66,11 @@
     <string name="lastName">Nom</string>
     <string name="invalidForms">Veuillez saisir tous les champs</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="bottom_fil_item">Fil d\'actualité</string>
+    <string name="bottom_add_defi_item">Ajouter</string>
+    <string name="bottom_profile_item">Profil</string>
+
+
 </resources>
