@@ -33,17 +33,21 @@ class ProfileActivity {
 
     fun getData(callback: () -> Unit){
 
-        // absorber les données depuis la databaseRef -> liste de défis
+        // récupurérer les données depuis la databaseRef -> liste de défis
         databaseRef.addValueEventListener(object: ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {
                 //retirer les anciens
                 defiList.clear()
                 //recolter la liste de l'utilisateur
                 for (ds in snapshot.children) {
-                    //verifie si c'est les defis de l'utilisateur
-                    if (ds.)
+
                     //construire un objet defi
                     val defi = ds.getValue(DefiModel::class.java)
+
+                    //verifie si les défis sont de l'utilisateur
+                    if (defi.id == user.id) {
+
+                    }
 
                     // vérifier que le défi n'est pas null
                     if (defi != null){
