@@ -44,7 +44,7 @@ class ProfileActivity {
                     //construire un objet defi
                     val defi = ds.getValue(DefiModel::class.java)
 
-                    //verifie si les défis sont de l'utilisateur
+                    // vérifie si les défis sont de l'utilisateur
                     if (defi.id == user.id) {
 
                     }
